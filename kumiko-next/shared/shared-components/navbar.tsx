@@ -62,6 +62,9 @@ export const NavBarMain: FC = () => {
                       <PopoverBody>Kumiko is not ready for production, and thus not ready for any invites yet</PopoverBody>
                     </PopoverContent>
                 </Popover>
+                <NextLink href='/login' passHref>
+                <Button variant="outline" borderColor='gray.500' size="lg" as="a">Login</Button>
+                </NextLink>
                 
             </HStack>
             </Hide>
@@ -96,6 +99,9 @@ export const NavBarMain: FC = () => {
                       <PopoverBody>Kumiko is not ready for production, and thus not ready for any invites yet</PopoverBody>
                     </PopoverContent>
                 </Popover>
+                <NextLink href='/login' passHref>
+                <Button variant="outline" borderColor='gray.500' size="lg" as="a">Login</Button>
+                </NextLink>
                 
             </VStack>
           </DrawerBody>
