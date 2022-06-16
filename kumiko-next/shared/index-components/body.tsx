@@ -26,7 +26,7 @@ import { GiTakeMyMoney } from 'react-icons/gi'
 export const MainBody: FC = () => {
     return (
         <>
-            <Center>
+            <Center pb={150}>
                 <VStack spacing={25} mx={150} align="center">
                 {/* @ts-ignore*/}
                 <Heading pt={100} size='2xl' orientation="horizontal" align="center">The Multipurpose bot built with freedom and choice</Heading>
@@ -48,21 +48,21 @@ export const MainBody: FC = () => {
                 <HStack align="center" justify="center" spacing={275} pt={75}>
                     <Container>
                         <Center pb={25}>
-                        <GiTakeMyMoney size={50} style={{ color: "#FFFFFF"}}/>
+                        <GiTakeMyMoney size={50} style={{ color: "#cccccc"}}/>
                         </Center>
                         <Text align="center" fontSize="xl">Build your empire</Text>
                         <Text align="center" pt={25} mx={15}>Kumiko's Economy is designed to scale, just like your empire. Go ahead and sell on the marketplace!</Text>
                     </Container>
                     <Container>
                         <Center pb={25}>
-                        <GoDashboard size={50} style={{ color: "#FFFFFF"}}/>
+                        <GoDashboard size={50} style={{ color: "#cccccc"}}/>
                         </Center>
                         <Text align="center" fontSize="xl">Control literally everything</Text>
                         <Text align="center" pt={25} mx={15}>Kumiko offers a web dashboard to create custom embeds, and control and view stats</Text>
                     </Container>
                     <Container>
                         <Center pb={25}>
-                        <SiGithub size={50} style={{ color: "#FFFFFF"}}/>
+                        <SiGithub size={50} style={{ color: "#cccccc"}}/>
                         </Center>
                         <Text align="center" fontSize="xl">Completely free and Open Source</Text>
                         <Text align="center" pt={25} mx={15}>Kumiko is also completely free, and compared to MEE6 and Probot and other bots, it's completely open source and free</Text>
