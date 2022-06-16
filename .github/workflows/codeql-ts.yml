@@ -29,7 +29,6 @@ jobs:
         with:
           version: 7
           run_install: false
-
       - name: Get pnpm store directory
         id: pnpm-cache
         run: |
