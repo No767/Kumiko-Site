@@ -97,7 +97,7 @@ export const NavBarMain: FC = () => {
         </Hide>
         <Show below="md">
           <IconButton
-          // @ts-ignore 
+            // @ts-ignore
             ref={btnRef}
             aria-label="Open Navbar"
             size="lg"

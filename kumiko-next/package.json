@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "format": "pnpm exec prettier --write .",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "pnpm exec prettier --check ."
+    "lint": "next lint"
+    
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
@@ -30,7 +31,9 @@
     "prettier": "2.7.1",
     "typescript": "4.7.3"
   },
-  "pre-commit": {
-    "run": ["format"]
+  "precommit": {
+    "run": [
+      "format"
+    ]
   }
 }
