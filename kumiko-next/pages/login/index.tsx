@@ -1,14 +1,14 @@
-import type { NextPage } from 'next'
-import { NavBarMain } from '../../shared/shared-components/navbar'
-import { LoginBody } from '../../shared/login-components/body'
+import type { NextPage } from "next";
+import { NavBarMain } from "../../shared/shared-components/navbar";
+import { LoginBody } from "../../shared/login-components/body";
 
 const LoginHome: NextPage = () => {
   return (
     <div>
-        <NavBarMain />
-        <LoginBody />
+      <NavBarMain />
+      <LoginBody />
     </div>
-  )
-}
+  );
+};
 
-export default LoginHome
+export default LoginHome;
