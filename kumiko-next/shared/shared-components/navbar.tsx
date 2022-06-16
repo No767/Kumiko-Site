@@ -96,9 +96,8 @@ export const NavBarMain: FC = () => {
           </HStack>
         </Hide>
         <Show below="md">
-          {/*
-      // @ts-ignore */}
           <IconButton
+          // @ts-ignore 
             ref={btnRef}
             aria-label="Open Navbar"
             size="lg"
