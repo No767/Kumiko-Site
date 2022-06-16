@@ -47,7 +47,7 @@ jobs:
         if: steps.npm-cache.outputs.cache-hit != 'true'
         run: |
           cd kumiko-next
-          pnpm install
+          pnpm install --no-frozen-lockfile
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1
         with:
