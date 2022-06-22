@@ -33,6 +33,7 @@ export const MainBody: FC = () => {
             size="2xl"
             orientation="horizontal"
             mx={50}
+            // @ts-ignore
             align="center"
           >
             The Multipurpose bot built with freedom and choice
