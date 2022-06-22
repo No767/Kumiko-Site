@@ -1,17 +1,12 @@
 import { FC } from "react";
 import {
   Text,
-  Center,
   Heading,
-  Button,
   VStack,
-  HStack,
   Img,
   Container,
   Box,
   Flex,
-  Spacer,
-  SimpleGrid,
 } from "@chakra-ui/react";
 
 export const TheRestOfTheBody: FC = () => {

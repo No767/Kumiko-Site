@@ -1,33 +1,7 @@
 import { FC } from "react";
 import NextLink from "next/link";
-import {
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  PopoverHeader,
-  PopoverBody,
-  PopoverArrow,
-  PopoverCloseButton,
-  Heading,
-  Center,
-  VStack,
-  HStack,
-  Button,
-  Text,
-  Box,
-  Container,
-  Link,
-} from "@chakra-ui/react";
-import {
-  SiGithub,
-  SiDiscord,
-  SiNextdotjs,
-  SiChakraui,
-  SiFastapi,
-} from "react-icons/si";
-import { GrMoney } from "react-icons/gr";
-import { GoDashboard } from "react-icons/go";
-import { GiTakeMyMoney } from "react-icons/gi";
+import { VStack, HStack, Text, Link } from "@chakra-ui/react";
+import { SiNextdotjs, SiChakraui, SiFastapi } from "react-icons/si";
 
 export const IndexFooter: FC = () => {
   return (

@@ -1,5 +1,4 @@
 import { FC } from "react";
-import NextLink from "next/link";
 import {
   Popover,
   PopoverTrigger,
@@ -18,7 +17,6 @@ import {
   Container,
 } from "@chakra-ui/react";
 import { SiGithub, SiDiscord } from "react-icons/si";
-import { GrMoney } from "react-icons/gr";
 import { GoDashboard } from "react-icons/go";
 import { GiTakeMyMoney } from "react-icons/gi";
 
