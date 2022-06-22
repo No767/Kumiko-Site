@@ -57,7 +57,7 @@ export const TheRestOfTheBody: FC = () => {
                 </Heading>
                 <Text align="center">
                   Kumiko uses a opt-in economy, where you, the user, can choose
-                  if you want to use it or not.
+                  if you want to use it or not. And it's extremely powerful, with features like jobs, and ways to earn in-game coins with the marketplace 
                 </Text>
               </VStack>
             </Container>
@@ -73,7 +73,7 @@ export const TheRestOfTheBody: FC = () => {
                 </Heading>
                 <Text align="center">
                   With Kumiko's web dashboard, you can gain control over Kumiko.
-                  View your stats, create custom embeds, and much much more!
+                  View your stats, create custom embeds, and much much more! But here's a catch! It's a paid feature
                 </Text>
               </VStack>
             </Container>
@@ -101,10 +101,10 @@ export const TheRestOfTheBody: FC = () => {
                   Completely open source!
                 </Heading>
                 <Text align="center">
-                  Unlike most of the popular bots (MEE6, Probot, etc), which are
+                  Unlike most of the popular bots (MEE6, Probot, Hydra, etc), which are
                   closed source, Kumiko is completely open source. Kumiko is
                   licensed under Apache-2.0, and thus gives you more power to
-                  expand and build
+                  expand and build.
                 </Text>
               </VStack>
             </Container>

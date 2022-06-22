@@ -26,9 +26,9 @@ export const MainBody: FC = () => {
   return (
     <>
       <Center pb={150}>
-        <VStack spacing={25} mx={150} align="center">
+        <VStack spacing={25} mx={150} align="center" >
           {/* @ts-ignore*/}
-          <Heading pt={100} size="2xl" orientation="horizontal" align="center">
+          <Heading pt={100} size="2xl" orientation="horizontal" mx={50} align="center">
             The Multipurpose bot built with freedom and choice
           </Heading>
           <Text fontSize="xl" align="center">
