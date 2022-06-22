@@ -16,7 +16,9 @@ The Official Site for Kumiko
 # Current tech stack
 
 Frontend: Next.js + TypeScript
+
 API / Backend: FastAPI (REST) + Python 
+
 DB: PostgreSQL
 
 # License
