@@ -45,7 +45,10 @@ export const TheRestOfTheBody: FC = () => {
           <Flex color="white" direction="row">
             <Container pt={75}>
               {/* TODO: REPLACE THE IMAGE !!!*/}
-              <Img src="https://raw.githubusercontent.com/No767/Kumiko-Site/dev/kumiko-next/assets/undraw_investing_re_bov7.svg" alt="Dan Abramov" />
+              <Img
+                src="https://raw.githubusercontent.com/No767/Kumiko-Site/dev/kumiko-next/assets/undraw_investing_re_bov7.svg"
+                alt="Dan Abramov"
+              />
             </Container>
             <Container pt={150}>
               <VStack spacing={15}>
@@ -87,7 +90,10 @@ export const TheRestOfTheBody: FC = () => {
           <Flex color="white" direction="row">
             <Container pt={75}>
               {/* TODO: REPLACE THE IMAGE !!!*/}
-              <Img src="https://raw.githubusercontent.com/No767/Kumiko-Site/dev/kumiko-next/assets/undraw_version_control_re_mg66.svg" alt="Dan Abramov" />
+              <Img
+                src="https://raw.githubusercontent.com/No767/Kumiko-Site/dev/kumiko-next/assets/undraw_version_control_re_mg66.svg"
+                alt="Dan Abramov"
+              />
             </Container>
             <Container pt={150}>
               <VStack spacing={15}>
