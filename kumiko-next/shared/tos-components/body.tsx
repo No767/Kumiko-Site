@@ -10,7 +10,7 @@ import {
 export const TOSBody: FC = () => {
   return (
     <>
-      <Container maxW="90%" ms={150} pt={50}>
+      <Container maxW="100%" ps={25} pt={50}>
         <Heading>Terms of Service</Heading>
         <Text pt={25}>
           By using the services provided by Kumiko, and Rin, you agree to follow
