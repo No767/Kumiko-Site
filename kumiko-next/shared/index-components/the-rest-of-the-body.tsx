@@ -33,7 +33,7 @@ export const TheRestOfTheBody: FC = () => {
               </VStack>
             </Container>
             <Container pt={100}>
-              <Img src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+              <Img src="https://raw.githubusercontent.com/No767/Kumiko-Site/dev/kumiko-next/assets/undraw_building_blocks_re_5ahy.svg" alt="Dan Abramov" />
             </Container>
           </Flex>
         </Box>
@@ -66,12 +66,12 @@ export const TheRestOfTheBody: FC = () => {
                   A customizable web dashboard
                 </Heading>
                 <Text align="center">
-                  With Kumiko's web dashboard, you can gain control over Kumiko.
+                  With Kumiko's web dashboard, you can gain control over Kumiko. View your stats, create custom embeds, and much much more!
                 </Text>
               </VStack>
             </Container>
             <Container pt={100}>
-              <Img src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+              <Img src="https://raw.githubusercontent.com/No767/Kumiko-Site/dev/kumiko-next/assets/undraw_dashboard_re_3b76.svg" alt="Dan Abramov" />
             </Container>
           </Flex>
         </Box>
