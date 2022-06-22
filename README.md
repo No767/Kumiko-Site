@@ -13,6 +13,12 @@ The Official Site for Kumiko
 
 <div align="left">
 
+# Current tech stack
+
+Frontend: Next.js + TypeScript
+API / Backend: FastAPI (REST) + Python 
+DB: PostgreSQL
+
 # License
 
 GPL-3.0
