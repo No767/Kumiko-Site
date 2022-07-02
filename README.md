@@ -26,9 +26,9 @@ Kumiko, a Discord bot built on top of [Rin](https://github.com/No767/Rin), is de
 
 Frontend: Next.js + TypeScript
 
-API / Backend: FastAPI (REST) + Python 
+API / Backend: FastAPI + Python
 
-DB: PostgreSQL
+DB: PostgreSQL + Redis (caching only)
 
 # License
 
