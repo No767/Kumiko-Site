@@ -40,11 +40,14 @@ export const NavBarMain: FC = () => {
   return (
     <>
       <Flex alignItems="center" pt={5} mx={5}>
-        <Avatar
-          height={16}
-          width={16}
-          src="https://raw.githubusercontent.com/No767/Kumiko/dev/assets/kumiko.jpg"
-        />
+        <NextLink href="/" passHref>
+          <Avatar
+            height={16}
+            width={16}
+            src="https://raw.githubusercontent.com/No767/Kumiko/dev/assets/kumiko.jpg"
+            as="a"
+          />
+        </NextLink>
         <Spacer />
         <Hide below="md">
           <HStack spacing={4} pt={5} mx={5} justify="flex-end">

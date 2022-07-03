@@ -17,7 +17,8 @@ export const TheRestOfTheBody: FC = () => {
           <Flex color="white" direction="row">
             <Container pt={150}>
               <VStack spacing={15}>
-                <Heading as="h4" size="lg">
+                {/* @ts-ignore*/}
+                <Heading as="h4" size="lg" align="center">
                   Built on top of Rin
                 </Heading>
                 <Text align="center">
@@ -47,7 +48,8 @@ export const TheRestOfTheBody: FC = () => {
             </Container>
             <Container pt={150}>
               <VStack spacing={15}>
-                <Heading as="h4" size="lg">
+                {/* @ts-ignore*/}
+                <Heading as="h4" size="lg" align="center">
                   A completely Opt in economy{" "}
                 </Heading>
                 <Text align="center">
@@ -65,7 +67,8 @@ export const TheRestOfTheBody: FC = () => {
           <Flex color="white" direction="row">
             <Container pt={150}>
               <VStack spacing={15}>
-                <Heading as="h4" size="lg">
+                {/* @ts-ignore*/}
+                <Heading as="h4" size="lg" align="center">
                   A customizable web dashboard
                 </Heading>
                 <Text align="center">
@@ -95,7 +98,8 @@ export const TheRestOfTheBody: FC = () => {
             </Container>
             <Container pt={150}>
               <VStack spacing={15}>
-                <Heading as="h4" size="lg">
+                {/* @ts-ignore*/}
+                <Heading as="h4" size="lg" align="center">
                   Completely open source!
                 </Heading>
                 <Text align="center">
