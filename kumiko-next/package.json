@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prepare": "cd .. && husky install",
     "format": "pnpm exec prettier --write .",
-    "test": "pnpm exec cypress open"
+    "test": "pnpm exec playwright test tests/"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
