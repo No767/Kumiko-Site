@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/kumiko-next"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "[npm/yarn]"
+      include: "scope"
+    target-branch: "dev"
