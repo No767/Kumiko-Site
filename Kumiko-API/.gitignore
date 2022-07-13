@@ -3,3 +3,5 @@ API/.env
 __pycache__
 .env
 .vscode/
+.idea/
+.env
